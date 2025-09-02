@@ -1,15 +1,12 @@
-let input = [1, 4, 6, 7];
+let input = [5];
 
 const result = (n) => {
-    return n * 2;
+    for(let i = 0; i < n.length; i++) {
+        total = n[i] * 2;
+    }
+    return total;
 }
 
-for(let i = 0; i < input.length; i++) {
-    
-}
-
-let total = result(input);
-
-
+let output = result(input);
 
 console.log(output);
