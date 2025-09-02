@@ -1,7 +1,7 @@
 let input = [1, 4, 6, 7];
 
-const result = (n) => {
-    let total;
+let total = [];
+const result = (input) => {
     for(let i = 0; i <= input.length; i++) {
         total = input[i] * 2;
     }
