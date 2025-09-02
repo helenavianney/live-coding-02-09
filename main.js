@@ -1,12 +1,13 @@
-let input = [5];
+let input = [1, 4, 6, 7];
 
+let total = [];
 const result = (n) => {
     for(let i = 0; i < n.length; i++) {
-        total = n[i] * 2;
+        score = n[i] * 2;
     }
-    return total;
+    return total.push(score);
 }
 
-let output = result(input);
+// let output = result(input);
 
-console.log(output);
+console.log(total);
