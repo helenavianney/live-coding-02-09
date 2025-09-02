@@ -4,8 +4,8 @@ let total = [];
 const result = (n) => {
     for(let i = 0; i < n.length; i++) {
         score = n[i] * 2;
+        total.push(score);
     }
-    return total.push(score);
 }
 
 // let output = result(input);
